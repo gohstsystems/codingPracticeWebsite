@@ -1,0 +1,112 @@
+#headerBarDiv
+{
+ position: fixed;
+ top: 0;
+ left: 0;
+ height: 10%;
+ width: 100%;
+ background-color: white;
+}
+
+#headerBarDiv ul 
+{
+ margin: 0;
+ padding: 0;
+ overflow: hidden;
+}
+
+#headerBarDiv li 
+{
+ float: left;
+ list-style-type: none;
+}
+
+#headerBarDiv li a
+{
+ display: inline-block;
+ color: blue;
+ text-align: center;
+ padding: 14px 16px;
+ text-decoration: none;
+}
+
+#headerBarDiv li a:hover
+{
+ color: skyBlue;
+}
+
+#leftHeaderLinks
+{
+ float: left;
+}
+
+#rightHeaderLinks
+{
+ float: right;
+}
+
+
+#mainBodyDiv
+{
+ position: fixed;
+ top: 10%;
+ left: 0;
+ height: 90%;
+ width: 100%;
+ background-color: #748bfa;
+ background-image: url("file:///C:/Users/User/Desktop/GSNet/CommonResources/Images/mainBkgd.png"); 
+ 
+ background: url("file:///C:/Users/User/Desktop/GSNet/CommonResources/Images/mainBkgd.png") repeat;
+        -webkit-background-size: repeat;
+        -moz-background-size: repeat;
+        -o-background-size: repeat;
+        background-size: repeat;
+		
+ background-repeat: repeat;
+}
+
+#sideNavBarDiv
+{
+ position: fixed;
+ top: 15%;
+ left: 5%;
+ height: 80%;
+ width: 15%;
+ //background-color: white;
+ background-color:rgba(255, 255, 255,0.9);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ //overflow-y: scroll;
+ border-radius: 15px;
+ border: 3px solid blue;
+ padding: 5px;
+}
+
+#primaryContentDiv
+{
+ float: right;
+ position: fixed;
+ top: 15%;
+ left: 25%;
+ height: 80%;
+ width: 70%;
+ //background-color: white;
+ background-color:rgba(255, 255, 255,0.9);
+ background-repeat: no-repeat;
+ background-size: 100% 100%;
+ border-radius: 15px;
+ border: 3px solid blue;
+ padding: 5px;
+ overflow-y: scroll;
+}
+
+#footerBarDiv
+{
+ position: fixed;
+ top: 100%;
+ left: 0;
+ height: 5%;
+ width: 100%;
+ background-color: rgb(20, 144, 221);
+ color: black;
+}
