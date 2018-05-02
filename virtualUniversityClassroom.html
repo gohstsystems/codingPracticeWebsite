@@ -1,0 +1,94 @@
+<!--
+ Title: 
+ File Location: GSNet/
+ 
+ Notes:
+-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Virtual University</title>
+  <link rel="icon" href="file:///C:/Users/User/Desktop/GSNet/CommonResources/Images/logoIcon.png">
+  <link rel="stylesheet" href="vuClassroom.css">
+
+
+</head>
+
+<body>
+
+<div id="headerArea">
+ <ul>
+  <li><a href="virtualUniversityHome.html">Home</a></li>
+  <li><a href="virtualUniversityProfile.html">Profile</a></li>
+  <li><a href="virtualUniversityClassroom.html">Class</a></li>
+  <li id="settingsButton"><a href="vuSettings.html">Settings</a></li>
+ </ul>
+ 
+</div>
+
+
+<div id="mediaArea"> 
+ <div id="mediaScreenArea">
+  <p>Media Screen</p>
+ </div>
+ 
+ <div id="mediaStatsArea">
+  <ul>
+  <li>Views</li>
+  <li><a href="">Rating</a></li>
+  <li><a href="">Share</a></li>
+ </ul>
+ </div>
+</div>
+
+<div id="playlistArea">
+  <div id="channelSelectionArea">
+  <p>Classrooms / Sort By  
+  <select name="Sort By">
+   <option value="volvo">Date Added (new-old)</option>
+   <option value="saab">Date Added (old-new)</option>
+   <option value="mercedes">Name (ascending)</option>
+   <option value="audi">Name (descending</option>
+  </select>
+ <input type="text" id="myInput" onkeyup="sortChannels()" placeholder="Search for classrooms..">
+</p>
+ 
+ </div>
+ <div id="seriesSelectionArea">
+  <p>Classes / Sort By<select name="Sort By">
+   <option value="volvo">Date Added (new-old)</option>
+   <option value="saab">Date Added (old-new)</option>
+   <option value="mercedes">Name (ascending)</option>
+   <option value="audi">Name (descending</option>
+  </select>
+ <input type="text" id="myInput" onkeyup="sortSeries()" placeholder="Search for classes..">
+</p>
+ </div>
+ <div id="fileSelectionArea">
+  <p>Files / Sort By <select name="Sort By">
+   <option value="volvo">Date Added (new-old)</option>
+   <option value="saab">Date Added (old-new)</option>
+   <option value="mercedes">Name (ascending)</option>
+   <option value="audi">Name (descending</option>
+  </select>
+ <input type="text" id="myInput" onkeyup="sortFiles()" placeholder="Search for files..">
+</p>
+ </div>
+</div>
+
+<div id="commentsArea">
+  <p>Comments area</p>
+</div>
+
+<div id="chatArea">
+  <p>Chatroom area</p>
+</div>
+</body>
+</html>
+
+
+
